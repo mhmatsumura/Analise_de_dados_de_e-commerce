@@ -25,6 +25,8 @@ Para o desenvolvimento do dashboard, utilizei os dados das seguintes tabelas for
 
 ![Screenshot](relacionamentos_olist.png)
 
+* Foi necessário fazer o ETL dos dados tratando dados nulos, outliers(exceções) e convertendo os tipos dos dados para que possam finalmente serem manipulados e compreendidos na análise de dados.
+
 * No Dashboard "Finanças", analisamos os dados do ponto de vista financeiro:
 
 ![Screenshot](meu_dash_ecommerce_financas.png)
