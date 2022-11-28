@@ -25,7 +25,7 @@ Para o desenvolvimento do dashboard, utilizei os dados das seguintes tabelas for
 
 ![Screenshot](relacionamentos_olist.png)
 
-* Foi necessário fazer o ETL dos dados tratando dados nulos, outliers(exceções) e convertendo os tipos dos dados para que possam finalmente serem manipulados e compreendidos na análise de dados.
+* Foi necessário fazer o ETL dos dados tratando dados Nulos, Outliers(exceções) e convertendo os Tipos dos dados para que possam finalmente serem manipulados e compreendidos na análise de dados.
 
 * No Dashboard "Finanças", analisamos os dados do ponto de vista financeiro:
 
@@ -52,4 +52,4 @@ Principais conclusões que podemos extrair dos Dashboard:
 * A taxa de encomendas entregues no prazo que é de 92,85%.
 
 
-**CLICK** [Para interagir com o  dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNWEwZDJmOGMtYjE3OS00ZWRjLTg5ZWMtOThmMWRlYWMzY2E4IiwidCI6IjZkYmExZDM2LTUwYTItNDRlMC04NDFkLTVjODliYjlhNDFlMCJ9&pageName=ReportSectionb9db0aeb7739ba08d78e)
+**CLICK: ** [Para interagir com o  dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNWEwZDJmOGMtYjE3OS00ZWRjLTg5ZWMtOThmMWRlYWMzY2E4IiwidCI6IjZkYmExZDM2LTUwYTItNDRlMC04NDFkLTVjODliYjlhNDFlMCJ9&pageName=ReportSectionb9db0aeb7739ba08d78e)
