@@ -1,45 +1,53 @@
-# Análise de dados de um e-comeerce
+# Análise de dados de um e-commerce
 
 ---
 
 ## **Introdução do Problema**
 
-Você conhece o perfil do Profissional de Dados do Brasil? 
+Este projeto foi desenvolvido no curso de DATA INSIGHTS da FLAI, escola de inteligência artificial e ciência de dados.
 
-Se você é um profissional de dados ou está pensando em migrar de carreira ou está interessado em saber melhor como é este profissional, precisa conhecer as atualizações da última pesquisa realizada pelo Data Hackers. 
+Trata-se da análise de dados de uma empresa de e-commerce utilizando a ferramenta da Microsoft POWER BI.
 
-**Problema**: Identificar e reportar em forma de dashboard as informações mais relevantes do Profissional de Dados no Brasil. 
+A análise de dados é realizada construindo-se GRÁFICOS e MEDIDAS com fórmulas DAX e linguagem M. 
 
-**Dataset**: Dados foram extraídos do Kaggle do Data Hackers
-* Link dos dados da Pesquisa de 2019: https://www.kaggle.com/datasets/datahackers/pesquisa-data-hackers-2019
-* Link dos dados da Pesquisa de 2021: https://www.kaggle.com/datasets/datahackers/state-of-data-2021
+
+**Problema**: Identificar e reportar em forma de dashboard as informações mais relevantes do e-commerce Olist do ponto de vista das Finanças e da Logística. 
+
+**Dataset**: Dados foram extraídos do Kaggle do e-commerce Olist:
+
+* Link dos dados da Olist: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
 
 ## **Desenvolvimento**
 
-Para o desenvolvimento do dashboard, utilizei os dados da pesquisa de 2021 e de 2019 para fins comparativos. 
-* Na "Página Inicial", podemos visualizar um resumo com as comparações das médias salariais, qual o nível de ensino da maioria dos profissionais que responderam à pesquisa e quais ferramentas estão mais presentes no dia a dia do profissional.
+Para o desenvolvimento do dashboard, utilizei os dados das seguintes tabelas fornecidos pela Olist: 
+* Aqui podemos ver as tabelas e seus relacionamentos. Foram definidos as Cardinalidade dos relacionamento conforme as regras de negócio bem como o tipo de fluxo de dados entre elas!
 
-![Screenshot](dashboard1.png)
+![Screenshot](relacionamentos_olist.png)
 
-* Em "Demografia e Carreira", podemos navegar pelos perfis e analisar a frequência (Qtde) ou a remuneração média (Salário) em relação ao nível, cargo, setor, nível de ensino, tempo de experiência na área de dados, tamanho da empresa, forma de trabalho (remoto, presencial ou híbrido) e estado.
+* No Dashboard "Finanças", analisamos os dados do ponto de vista financeiro:
 
-![Screenshot](dashboard2.png)
+![Screenshot](meu_dash_ecommerce_financas.png)
 
-* Em "Conhecimentos na Área de Dados", podemos extrair informações mais específicas do perfil selecionado, como por exemplo, ferramentas e linguagens mais utilizadas e atividades do dia a dia.
+* No Dashboard "Logística", analisamos os dados do ponto de vista das encomendas e entregas dos produtos:
 
-![Screenshot](dashboard3.png)
+![Screenshot](meu_dash_ecommerce_logistica.png)
 
 ## **Conclusão**
 
-Principais conclusões que podemos extrair dessas informações:
-* Aumento salarial significativo independente do perfil.
-* As linguagens mais utilizadas continuam sendo: Python e SQL.
-* A ferramenta de BI que continua em primeiro lugar é o Power BI.
-* Os bancos de dados mais utilizados são: SQL Server e PostgreSQL.
-* A possibilidade de trabalhar com dados em diversos setores do mercado.
-* Maior média salarial em empresas de porte grande e médio.
-* Analista de Dados passa a maior parte do tempo desenvolvendo dashboards em ferramentas de BI e criando consultas em SQL.
-* Cientista de Dados passa a maior parte do tempo coletando e limpando os dados para análise e criação de modelos, além disso realizam estudos para resolver problemas de negócio 
-* Engenheiro de Dados passa a maior parte do tempo desenvolvendo pipeline de dados e criando consultas em SQL.
+Principais conclusões que podemos extrair dos Dashboard:
 
-**Para acessar e navegar pelo dashboard no Power BI**, clique [aqui]( https://app.powerbi.com/view?r=eyJrIjoiMDZhZTM3MGItMzJmMi00MjM3LTlmZDMtN2ExOGJkZTc1ZTE3IiwidCI6IjgxMTFjMzgxLThjM2EtNDNkMS05ODc4LTA5ZjAzZGQ0N2Y1NiJ9 )
+* A principal forma de pagamento é por cartão de crédito.
+
+* Produtos da categoria "beleza_saúde" são os que mais tem demanda.
+
+* Período de março à agosto o volume de vendas são maiores.
+
+* Em setembro existe uma queda acentuada nas vendas.
+
+* A região/estado com maior volume de operações.
+
+* A taxa de encomendas entregues no prazo que é de 92,85%.
+
+
+**CLICK** [Para interagir com o  dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNWEwZDJmOGMtYjE3OS00ZWRjLTg5ZWMtOThmMWRlYWMzY2E4IiwidCI6IjZkYmExZDM2LTUwYTItNDRlMC04NDFkLTVjODliYjlhNDFlMCJ9&pageName=ReportSectionb9db0aeb7739ba08d78e)
